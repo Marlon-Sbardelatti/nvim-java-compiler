@@ -1,4 +1,5 @@
 #nvim-java-compiler
+
 This bash script is intended to be used in conjunction with Neovim to facilitate Java development.
 
 The command follows the IntelliJ structure, where the .class files are stored in the directory projects/"project-name"/out/production/"project-name". Execute the command cjava.sh + yourClass.class (there is no limit on the number of .class files in the command) in the projects/src directory, and your files will be compiled and redirected to the correct directory.
